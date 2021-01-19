@@ -1,16 +1,26 @@
-# Homework 2
+# Homework 3
 
-Use functions FindSimpleWithRangeForLoop and FindBinarySearch from the lecture.
+Write a function to calculate the branch with the largest sum of nodes, given a sorted binary tree of integers. 
+The function should print the branch with the largest sum and the calculated sum value.
 
-1. Modify the TestVectorSet function so that you report the time it takes to create the vector and the set; and running the "find" functions.
-2. Modify the main function so that you perform the test for sz values 1000, 10000, 100000, 1000000, 10000000.
-3. For each sz value, perform the test for 10 randomly generated ValueToFind values between 0 and sz-1. Do not forget to randomize your seed value for the rand function.
-4. Generate a report that lists the average performance of each "find" function for each sz value. Report may look as follows:
 
-|Function | 1000 | 10000 | 100000 | 1000000 | 10000000|
-|----| ---- | ---- | ---- | ---- | ----|
-|Vector construct | | | | | 
-|Set construct | | | | | 
-|FindSimpleWithRangeForLoop | | | | | 
-|FindBinarySearch | | | | | 
-|Set find | | | | | 
+Example: given the following tree, the function should print.
+
+>Branch with the largest sum is: 5 4 11 7 -> SUM = 27
+
+
+
+              5
+             / \
+            4   8
+           /   / \
+          11  13  4
+         /  \      \
+        7    2      1
+
+### List of branches:
+
+- **branch 1:** 5 4 11 7   ->   SUM = 27 (*)
+- **branch 2:** 5 4 11 2   ->   SUM = 22
+- **branch 3:** 5 8 13     ->   SUM = 26
+- **branch 4:** 5 8 4 1    ->   SUM = 18
