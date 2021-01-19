@@ -3,6 +3,8 @@
 Write a function to calculate the branch with the largest sum of nodes, given a sorted binary tree of integers. 
 The function should print the branch with the largest sum and the calculated sum value.
 
+You can use the binary tree code given in the Lecture as you like.
+
 
 Example: given the following tree, the function should print.
 
